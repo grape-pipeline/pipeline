@@ -1,7 +1,14 @@
-7.0alpha (2013-02-08)
+7.0.1alpha (2013-02-13)
+=======================
+
+- Remove bogus warnings about missing tables at the end of the start script
+
+7.0.0alpha (2013-02-08)
 =====================
 
 - Create the new alpha version
+
+- Warn if the input file name ends with _fastqc instead of .fastqc
 
 6.5.3 (2012-01-09)
 ==================

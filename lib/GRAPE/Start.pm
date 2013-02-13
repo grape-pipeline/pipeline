@@ -972,7 +972,7 @@ sub print_pipeline_file {
 		    # The table does not exist in the module, and has to be
 		    # creted by the rule. When all the tables are migrated this
 		    # warning should be removed
-		    warn "WARNING: $2 Does not exist as a table\n";
+#		    warn "WARNING: $2 Does not exist as a table\n";
 		    my $prefix=$vars->{'PREFIX'};
 		    $tables->{$2}=$prefix.$2;
 		} else {
